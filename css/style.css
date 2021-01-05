@@ -1,0 +1,184 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.header{background-color: black
+	;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.header ul li{
+	list-style: none;
+	display:inline-block;
+
+}
+a{
+	text-decoration: none;
+}
+.header ul li a{
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.header ul li a:hover{
+	color: tomato;
+}
+.newslatter{
+	background-color: #f5f5f5;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+
+}
+.newslatter h1{
+	font-size: 52px;
+	font-weight: 600
+	color:#2f323a;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.newslatter p{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #cdd0cb;
+
+}
+.input-1{
+	width: 25%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+.input-2{
+	width: 30%;
+	padding: 18px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+.input-3{
+	width: 15%;
+	padding: 18px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+.input-3:hover{
+	background-color: tomato;
+	cursor: pointer;
+	border: 1px solid tomato;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&display=swap')
+.container {
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container h1 {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.a {
+    width: 30%;
+    padding: 20px;
+}
+.b {
+    width: 30%;
+    padding: 20px;
+    margin-left: 10px;
+}
+.c {
+    width: 30%;
+    padding: 20px;
+    margin-top: 15px;
+}
+.d {
+    width: 30%;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.e {
+    width: 67%;
+    padding-bottom: 250px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.f {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding-bottom: : 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 2px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 670px;
+}
+
+element.style {
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    padding: 80px 0px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.container2 {
+    width: 1140px;
+    margin: auto;
+}
+
+.col ul li a {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+.footer-bottom ul li {
+    display: inline-block;
+    border-right: 1px solid red;
+    list-style-position: left 500px;
+    margin: 10px;
+}
+.social-icon ul li a i {
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: tomato;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 60px;
+    border: 1px solid black;
+    transition: 0.5s ease-in-out;
+}
+.footer-bottom p {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    margin: 10px;
+}
